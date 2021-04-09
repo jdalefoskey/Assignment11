@@ -1,3 +1,37 @@
 body {
-    background-color: aquamarine;
+    background-image: url('https://cdn.slidesharecdn.com/ss_thumbnails/salesreport-1-190524064328-thumbnail-4.jpg?cb=1558681942');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+p {
+    font-size: x-large;
+    color: black;
+    font-weight: 700;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+#button {
+    width: 800px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid;
+    box-shadow: 5px 10px darkgray;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    color:black;
 }

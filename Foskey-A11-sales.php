@@ -72,7 +72,9 @@
 	print("<p>Jones achieved $jonesCount sales with a total value of $$jonesSum, and an average sale value of $$jonesAverage.</p>");
 	?>
 	<!-- Link back to html page -->
-	<a href="Foskey-A11-sales.html">Return to form</a>
+
+	<p><img src="https://media.makeameme.org/created/brace-yourselves-expense.jpg" alt="funny picture"></p>
+	<p><a href="Foskey-A11-sales.html">Return to form</a></p>
 
 </body>
 
