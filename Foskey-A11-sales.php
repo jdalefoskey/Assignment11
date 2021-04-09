@@ -41,10 +41,17 @@
          $jonesSales[] = floatval($salesDollars); // here we pust the non- Smith sales into an array called jonesSales
      }
  }
+ //  closing the file after we are done
  fclose($salesData);
-
-//  closing the file after we are done
-?>
+ $smithSum = 0;
+ for ($i = 0; $i < sizeof($smithSales); $i = $i + 1) {
+     $smithSum = $smithSum + $smithSales[$i];
+ }
+ $smithAverage = $smithSum / sizeof($smithSales);
+ print $smithAverage;
+ print '<p> Mr. Jones has ...</p>';
+ print '<p> Mr. Smith has ...</p>';
+ ?>
 	<!-- Update the link below with the name of your html file -->
 	<a href="Foskey-A11-sales.html">Return to form</a>
 
