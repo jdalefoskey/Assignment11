@@ -71,7 +71,7 @@
 	<!-- Link back to html page -->
 
 	<p><img src="https://media.makeameme.org/created/brace-yourselves-expense.jpg" alt="funny picture"></p>
-	<p><a href="Foskey-A11-sales.html">Return to form</a></p>
+	<p><a href="index.php">Return to form</a></p>
 
 </body>
 

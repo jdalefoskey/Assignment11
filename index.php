@@ -16,9 +16,11 @@
   </head>
 
   <body>
-    <h1>Sales Report</h1>
-    <form action="Foskey-A11-sales.php" method="post">
-      <p><input id="button" type="submit" value="View the Sales Report" /></p>
-    </form>
+    <?php
+    print("<h1>Sales Report</h1>");
+    print("<form action="Foskey-A11-sales.php" method="post">");
+      print("<p><input id="button" type="submit" value="View the Sales Report" /></p>
+    </form>");
+    ?>
   </body>
 </html>
